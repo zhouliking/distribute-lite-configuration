@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.joelly.config.configs.SimpleConfigAutoConfiguration,\
+  com.joelly.config.configs.SimpleConfigScopeConfiguration
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.joelly.config.loader.CustomEnvironmentPostProcessor
