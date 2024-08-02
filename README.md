@@ -1,9 +1,9 @@
 # simple-distribute-config-starter
 
-简单分布式配置中心，适用于：轻量级、分布式、单体应用（微服务）spring web项目，具备配置配置实时管理生效
+简单轻量级分布式配置中心，适用于：分布式应用、单体应用、微服务应用等spring web项目，直接引入web工程即可使用。提供工程启动前（sping 容器启动前）加载配置，实时配置管理生效等功能
 
 ## Getting started
-
+> 使用步骤，如下：
 - Step1: 添加maven依赖
 ```
 <dependency>
