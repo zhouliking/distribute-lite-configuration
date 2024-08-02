@@ -19,10 +19,10 @@ spring:
   application:
     name: xxx-app
 
-hx:
+joelly:
   config:
     enable: true
-    refreshRateSecond: 60
+    refreshRateSecond: 60 // 循环兜底刷新配置时间，单位秒，保证最终一致性
     db:
       url: jdbc:mysql://xx.xx.xx.xx:3311/config_db?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&max_query_size=100000000
       username: root
